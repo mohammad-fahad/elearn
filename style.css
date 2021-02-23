@@ -171,3 +171,46 @@ div.scroll {
     font-weight: bold;
     color: #0c2e60; 
 }
+
+
+/* new css */
+
+.total{
+    margin-bottom: 1vh;
+    margin-top: 7vh;
+}
+.main-card{
+    height: 38vh;
+    width: 19vw; 
+    background-color: gray; 
+    /* position: relative; */
+}
+.card{
+    margin-top:-8vh;
+    padding: 10px 10px; 
+    width: 17.5vw;
+    left: 28px;
+    box-shadow: 5px 5px 10px lightgrey;
+    border-radius: 15px 0 0 15px;
+    position: relative;
+}
+@media (max-width: 575.98px) {
+    .total{
+        margin-left: 15px;
+    }
+    .main-card{
+        height: 25vh;
+        width: 85vw; 
+        background-color: gray; 
+        /* position: relative; */
+    }
+    .card{
+        margin-top:-8vh;
+        padding: 10px 10px; 
+        width: 80vw;
+        left: 20px;
+        box-shadow: 5px 5px 10px lightgrey;
+        border-radius: 15px 0 0 15px;
+        position: relative;
+    }
+}
