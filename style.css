@@ -90,7 +90,7 @@
         
 }
 
-input{
+.search-section>input{
     padding: 16px 0;
     text-align: center;
     height: 6vh;
@@ -180,15 +180,15 @@ div.scroll {
     margin-top: 7vh;
 }
 .main-card{
-    height: 38vh;
-    width: 19vw; 
-    background-color: gray; 
+    height: 35vh;
+    width: 17vw; 
+    background-color: lightgrey; 
     /* position: relative; */
 }
-.card{
+.holder{
     margin-top:-8vh;
     padding: 10px 10px; 
-    width: 17.5vw;
+    width: 15.5vw;
     left: 28px;
     box-shadow: 5px 5px 10px lightgrey;
     border-radius: 15px 0 0 15px;
@@ -201,10 +201,10 @@ div.scroll {
     .main-card{
         height: 25vh;
         width: 85vw; 
-        background-color: gray; 
+        background-color: lightgrey; 
         /* position: relative; */
     }
-    .card{
+    .holder{
         margin-top:-8vh;
         padding: 10px 10px; 
         width: 80vw;
