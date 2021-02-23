@@ -1,0 +1,171 @@
+.background{
+    background-image: url(./resources/BG.png);
+    height: 100vh;
+    position: relative;
+}
+
+.nav-link{
+    color: #0c2e60 !important;
+}
+
+.nav-link:hover{
+    color: #0f4cb6 !important;
+}
+
+.text-area{
+    margin-top: 20vh;
+}
+.edu{
+    color: #F0430E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size:  1.5em;
+}
+
+.smart{
+    color: #0c2e60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size:  1.5em;
+}
+
+.general-text{
+    margin-top: 5vh;
+    font-family: 'roboto';
+    color: gray;
+}
+
+.read-more{
+    text-decoration: underline 3px solid grey;
+    padding-top: 2vh;
+    color: #0c2e60;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size:  .8em;
+}
+
+.card-title{
+    margin-top: 3vh;
+    color: #0c2e60;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.button-rounded{
+    color: white;
+    background-image: linear-gradient(to right, #EF400F,  #FFBB00);
+    border-radius: 30px;
+    padding: 1.3vh 1.5vh;    
+    border: none;
+}
+
+
+
+.button-rounded:hover{
+    color: whitesmoke !important;
+    box-shadow: 5px 5px 10px orange;
+}
+
+.btn-square{
+    color: white;
+    background-image: linear-gradient(to right, #EF400F,  #FFBB00);    
+    padding: 1.3vh 1.5vh;    
+    border: none; 
+}
+
+.btn-square:hover{
+    color: whitesmoke !important;
+    box-shadow: 5px 5px 10px orange;
+}
+
+.search-section{
+    box-shadow: 0px 0px 20px grey;
+    background-color: white;
+    position: absolute;
+    top: 93vh; 
+        
+}
+
+input{
+    padding: 16px 0;
+    text-align: center;
+    height: 6vh;
+}
+
+.find{
+    color: white;
+    background-color: #0c2e60;
+    padding: 16px 3vw;
+}
+
+.find:hover{
+    color:gray;
+    box-shadow: 5px 5px 10px #0c2e60;
+}
+
+.card{
+    border: none;
+}
+
+div.scroll { 
+    margin:5px; 
+    padding:5px;    
+    width: 500px; 
+    height: 35vh;
+    overflow: auto; 
+    text-align:justify; 
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+  /* FavIcon inside input */
+  .input-icons i { 
+    position: absolute; 
+    
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+   
+} 
+  
+.icon { 
+    padding: 10px; 
+    min-width: 40px; 
+    
+} 
+  
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+} 
+
+.c-holder{
+    box-shadow: 5px 5px 10px lightgrey;
+}
+.font{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #0c2e60; 
+}
