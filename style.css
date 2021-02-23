@@ -1,7 +1,10 @@
 .background{
     background-image: url(./resources/BG.png);
+    background-position: center center;
+    background-repeat: no-repeat;
     height: 100vh;
-    position: relative;
+    width: 100%;   
+
 }
 
 .nav-link{
@@ -108,11 +111,10 @@ input{
     border: none;
 }
 
-div.scroll { 
-    margin:5px; 
+div.scroll {    
     padding:5px;    
     width: 500px; 
-    height: 35vh;
+    height: 52vh;
     overflow: auto; 
     text-align:justify; 
 }
