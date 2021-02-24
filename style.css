@@ -87,25 +87,25 @@
     background-color: white;
     position: absolute;
     top: 93vh; 
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
         
 }
 
 .search-section>input{
-    padding: 16px 0;   
+    /* padding: 16px 0;    */
     height: 6vh;
 }
 
 
 @media only screen  
-and (min-device-width: 320px)
-and (max-device-width : 666px) {
+and (min-device-width: 250px)
+and (max-device-width : 600px) {
         .search-section>button{
         width: 70%;
     }
-    .search-section{       
-        height: 100%;      
-        
+    .search-section{    
+              
+        margin-top: 35%;
     }
     }
 
@@ -172,14 +172,10 @@ div.scroll {
     
 } 
   
-.input-field { 
-    width: 100%; 
-    padding: 10px; 
-    /* text-align: center;  */
-} 
+
 
 ::placeholder{
-    padding: 20px;
+    padding: 20px;    
 }
 
 .c-holder{
@@ -233,3 +229,6 @@ div.scroll {
         position: relative;
     }
 }
+
+
+
